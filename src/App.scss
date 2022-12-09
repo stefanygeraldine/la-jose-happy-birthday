@@ -21,7 +21,8 @@ body {
   left: 0;
 }
 .button{
-  background-color: #F88183;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f490a4;
   border-radius: 23px;
   width: 200px;
   height: 47px;
@@ -33,10 +34,27 @@ body {
   font-size: 24px;
   cursor: pointer;
 }
+.jose{
+  margin: 0;
+  color: #f07d7f;
+  font-size: 51px;
+}
+.right{
+  position: absolute;
+  right: -84px;
+  width: 350px;
+  bottom: -47px;
+}
+.left{
+  left: -61px;
+  position: absolute;
+  width: 300px;
+}
 .text{
   font-family: 'Montserrat', sans-serif;
   color: #F88183;
   font-size: 25px;
+  margin: 15px;
 }
 .animate-charcter {
 
@@ -67,6 +85,23 @@ body {
     font-size: 50px;
   }
 
+  .left {
+    left: -61px;
+    position: absolute;
+    width: 183px;
+    top: 79px;
+  }
+
+  .birthday {
+    width: 75% !important;
+    margin: 0 !important;
+    z-index: 3;
+  }
+.container{
+  align-items: center;
+  justify-content: flex-start !important;
+  padding-top: 3rem;
+}
 }
 @keyframes textclip {
   to {
@@ -75,9 +110,10 @@ body {
 }
 .birthday{
   width: 50%;
-  margin: 15% 0;
+  margin: -90px -100px 0 0;
 }
 .container{
+  height: 90vh;
   position: relative;
   box-sizing: border-box;
   box-shadow: 1px 1px 24px 11px #00000057;
@@ -88,10 +124,15 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .container__center {
   display: flex;
-  text-align: center;
   flex-direction: column;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
