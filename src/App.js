@@ -1,4 +1,6 @@
 import './App.scss';
+// import { StartLottiePlayer } from './components/Lotties/StarLottie';
+// <StartLottiePlayer />
 
 function App() {
   return (
@@ -7,6 +9,7 @@ function App() {
        <h1 className="animate-charcter"> Happy </h1>
        <h2 className="animate-charcter"> Birthday</h2>
        <h4>Josefina Losada</h4>
+       
        <p>AMIGA | TEACHER | COMPAÑERA</p>
      </div>
     </div>
