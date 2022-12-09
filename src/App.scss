@@ -5,8 +5,15 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F88183;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+#root{
+  width: 100%;
+  box-sizing: border-box;
+}
 .animate-charcter {
   margin: 0;
   text-transform: uppercase;
@@ -27,7 +34,7 @@ body {
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  font-size: 190px;
+  font-size: 120px;
 }
 @media (max-width: 600px) {
   .animate-charcter{
@@ -42,7 +49,11 @@ body {
 }
 
 .container{
-  background-color: #ff7f7f;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 24px 11px #00000057;
+  width: 90%;
+  margin: 5%;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,7 +61,6 @@ body {
 }
 
 .container__center {
-  max-width: 300px;
   display: flex;
   text-align: center;
   flex-direction: column;
