@@ -1,17 +1,19 @@
 import './App.scss';
-// import { StartLottiePlayer } from './components/Lotties/StarLottie';
-// <StartLottiePlayer />
+import Top from './assets/imagen-top.svg'
+import birthday from './assets/birthday.svg'
+import { StartLottiePlayer } from './components/Lotties/StarLottie';
 
 function App() {
   return (
     <div className="container">
+      <StartLottiePlayer />
+      <img src={Top} alt="top" className="top"/>
+      <img src={birthday} alt="top" className="birthday"/>
      <div className="container__center">
-       <h1 className="animate-charcter"> Happy </h1>
-       <h2 className="animate-charcter"> Birthday</h2>
        <h4>Josefina Losada</h4>
-       
-       <p>AMIGA | TEACHER | COMPAÑERA</p>
+       <p className="text">FRIEND | TEACHER | COMPAÑERA</p>
      </div>
+      <button className="button">Click Here</button>
     </div>
   );
 }
